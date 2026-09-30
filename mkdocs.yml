@@ -1,4 +1,4 @@
-site_name: Sensor Grid Technology | SGT
+site_name: SGT | Sensor Grid Technology
 site_description: Public technical documentation for the SGT platform
 site_url: https://sgtedge.github.io/docs-pub
 
@@ -33,6 +33,9 @@ theme:
   font:
     text: Inter
     code: Roboto Mono
+
+  extra_css:
+    - stylesheets/extra.css
 
 markdown_extensions:
   - admonition

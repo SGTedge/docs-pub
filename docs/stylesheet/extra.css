@@ -1,0 +1,15 @@
+/* SGT header / banner */
+.md-header {
+  background-color: #5CA5D2;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: #5CA5D2;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #24516F;
+}
