@@ -1,15 +1,13 @@
-/* SGT header / banner */
-.md-header {
-  background-color: #5CA5D2;
-}
-
-/* Navigation tabs */
-.md-tabs {
-  background-color: #5CA5D2;
+/* SGT brand color */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #5CA5D2;
+  --md-primary-fg-color--light: #78B5DC;
+  --md-primary-fg-color--dark: #438EBE;
 }
 
 /* Dark mode */
-[data-md-color-scheme="slate"] .md-header,
-[data-md-color-scheme="slate"] .md-tabs {
-  background-color: #24516F;
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #24516F;
+  --md-primary-fg-color--light: #326F95;
+  --md-primary-fg-color--dark: #193B50;
 }
